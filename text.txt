@@ -1,0 +1,7 @@
+java.bat - тут описан путь к файлу java
+javac.bat - тут описан путь к файлу javac
+c.bat - запуск компилятора javac
+j.bat - запуск программы java
+
+файл HelloWorld.java компилируем командой: c HelloWorld, 
+запускаем появившийся файл HelloWorld.class командой: j HelloWorld
