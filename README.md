@@ -1,1 +1,1 @@
-# изучаю Java
+# Java learning
