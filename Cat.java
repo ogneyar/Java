@@ -4,6 +4,9 @@ public class Cat {
 	private String name; // имя кота
 	private String color; //окрас кота
 
+	public static void main(String[] args) {
+    }
+
 	//кот ест
 	public void eat(){
 		System.out.print("Eating...\n");
@@ -18,6 +21,21 @@ public class Cat {
 	public String speak(String words){ 
 		String phrase = words + "...mauu...\n";
 		return phrase;
+	}
+
+	//
+	public int getWeight(){
+		return this.weight;
+	}
+
+	//
+	public String getName(){ 
+		return this.name;
+	}
+
+	//
+	public String getColor(){ 
+		return this.color;
 	}
 
 }
