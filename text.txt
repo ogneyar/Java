@@ -1,5 +1,7 @@
 c.bat - запуск компилятора javac.exe
 j.bat - запуск программы java.exe
+ja.bat - запуск программы jar.exe
 
 файл HelloWorld.java компилируем командой: c HelloWorld, 
 запускаем появившийся файл HelloWorld.class командой: j HelloWorld
+или собираем файлы *.class в jar файл командой: ja HelloWorld
